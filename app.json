@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/ble/ble"
+    "pages/ble/ble",
+    "pages/barcode/barcode"
   ],
   "window": {
     "backgroundTextStyle": "light",

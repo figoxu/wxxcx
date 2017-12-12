@@ -3,4 +3,7 @@
   <view >
     <button type="default" bindtap="onBleClick">Ble</button>
   </view>
+  <view >
+    <button type="default" bindtap="onBarcodeClick">Barcode</button>
+  </view>
 </view>

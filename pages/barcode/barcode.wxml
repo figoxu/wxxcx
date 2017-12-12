@@ -1,0 +1,6 @@
+<view class="container">
+    <view >
+        <button type="default" bindtap="onScanBtnClick">BarCode</button>
+        <text>{{text}}</text>
+    </view>
+</view>

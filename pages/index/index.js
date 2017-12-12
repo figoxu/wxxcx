@@ -42,12 +42,16 @@ Page({
       url: '../data/data',
     })
   },
-  onBleClick:function () {
-
-      wx.navigateTo({
-          url: '../ble/ble',
-      })
-  },
+    onBleClick:function () {
+        wx.navigateTo({
+            url: '../ble/ble',
+        })
+    },
+    onBarcodeClick:function () {
+        wx.navigateTo({
+            url: '../barcode/barcode',
+        })
+    },
   onLoad: function () {
     console.log('onLoad')
     var that = this
