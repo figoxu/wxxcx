@@ -1,13 +1,6 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/flex/flex",
-    "pages/icon/icon",
-    "pages/text/text",
-    "pages/progress/progress",
-    "pages/calculator/calculator",
-    "pages/data/data",
     "pages/ble/ble"
   ],
   "window": {
