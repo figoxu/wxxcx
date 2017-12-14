@@ -5,5 +5,6 @@
   </view>
   <view >
     <button type="default" bindtap="onBarcodeClick">Barcode</button>
+    <button type="default" bindtap="onHttpClick">Http</button>
   </view>
 </view>

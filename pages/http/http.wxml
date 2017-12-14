@@ -1,0 +1,4 @@
+<view class="content">
+    <button type="primary" class="button" bindtap="onAjaxClick">Ajax请求</button>
+
+</view>

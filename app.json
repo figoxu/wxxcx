@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/ble/ble",
-    "pages/barcode/barcode"
+    "pages/barcode/barcode",
+    "pages/http/http"
   ],
   "window": {
     "backgroundTextStyle": "light",

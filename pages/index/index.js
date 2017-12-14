@@ -6,42 +6,6 @@ Page({
     motto: 'Hello World',
     userInfo: {}
   },
-  //事件处理函数
-  // bindViewTap: function() {
-  //   wx.navigateTo({
-  //     url: '../logs/logs'
-  //   })
-  // },
-  onFlexClick: function () {
-    wx.navigateTo({
-      url: '../flex/flex'
-    })
-  },
-  onIconClick: function () {
-    wx.navigateTo({
-      url: '../icon/icon'
-    })
-  },
-  onTextClick: function () {
-    wx.navigateTo({
-      url: "../text/text"
-    })
-  },
-  onProgressClick: function () {
-    wx.navigateTo({
-      url: "../progress/progress"
-    })
-  },
-  onCalculator: function () {
-    wx.navigateTo({
-      url: "../calculator/calculator"
-    })
-  },
-  onDataClick:function(){
-    wx.navigateTo({
-      url: '../data/data',
-    })
-  },
     onBleClick:function () {
         wx.navigateTo({
             url: '../ble/ble',
@@ -50,6 +14,11 @@ Page({
     onBarcodeClick:function () {
         wx.navigateTo({
             url: '../barcode/barcode',
+        })
+    },
+    onHttpClick:function () {
+        wx.navigateTo({
+            url: '../http/http',
         })
     },
   onLoad: function () {
